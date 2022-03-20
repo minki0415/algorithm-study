@@ -1,5 +1,3 @@
-
-//문제 : https://www.acmicpc.net/problem/10829
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
