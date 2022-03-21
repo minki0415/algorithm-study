@@ -7,7 +7,7 @@
 |스|터|디|원|
 |---|---|---|---|
 |<a href="https://github.com/minki0415"><img src="https://img.shields.io/badge/김민기-16ba5b?style=for-the-badge"/></a>|<a href="https://github.com/MaryYoungae"><img src="https://img.shields.io/badge/김영애-ef7953?style=for-the-badge"/></a>|<a href="https://github.com/dingdoooo"><img src="https://img.shields.io/badge/김진주-97c6d0?style=for-the-badge"/></a>|<a href="https://github.com/mandariny"><img src="https://img.shields.io/badge/윤소희-d097af?style=for-the-badge"/></a>|
-|<a href="https://github.com/dongkyuu"><img src="https://img.shields.io/badge/임동규-b332df?style=for-the-badge"/></a>
+|<a href="https://github.com/dongkyuu"><img src="https://img.shields.io/badge/임동규-b332df?style=for-the-badge"/></a>|<a href="https://github.com/mjkim8764"><img src="https://img.shields.io/badge/김민준-df3281?style=for-the-badge"/></a>
   
 <br><br>
 
