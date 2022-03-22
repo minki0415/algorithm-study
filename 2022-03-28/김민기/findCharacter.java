@@ -9,14 +9,14 @@ public class findCharacter {
     	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         String str1 = br.readLine().toLowerCase();
-		String str2 = br.readLine().toLowerCase();
+	char c = br.readLine().toLowerCase().charAt(0);
 
-		int count = 0;
+	int count = 0;
 
-		for(int i = 0; i < str1.length(); i++){
-			if(str1.charAt(i) == str2.charAt(0)) count++;
-		}
+	for(int i = 0; i < str1.length(); i++){
+		if(str1.charAt(i) == c) count++;
+	}
 
-		System.out.println(count);
+	System.out.println(count);
     }	
 }
