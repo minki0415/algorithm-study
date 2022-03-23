@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class ParenthesisConversion {
 	
-	public static String split(String p) {
+	public static String solution(String p) {
 		if(p.equals("")) {
 			return p;
 		}
@@ -15,7 +15,7 @@ public class ParenthesisConversion {
         int index = 0;
         int cnt = 0;
         for(int i = 0; i < len; i++) {
-        	if(strArr[0].equals("(")) {
+        	if(strArr[i].equals("(")) {
         		cnt++;
         	} else {
         		cnt--;
@@ -30,19 +30,17 @@ public class ParenthesisConversion {
         }
         
         String u = p.substring(0,index);
-        System.out.println(u);
         String v = p.substring(index);
         
         StringBuilder sb = new StringBuilder();
         if(isCorrect(u)) {
-        	return u + split(v);
+        	return u + solution(v);
         } else {
         	sb.append("(");
-        	sb.append(split(v));
+        	sb.append(solution(v));
         	sb.append(")");
         	sb.append(reverse(u));
         }
-        
         
         return sb.toString();
     }
@@ -81,9 +79,9 @@ public class ParenthesisConversion {
 	
 	public static void main(String[] args) {
 		
-		String p = "()))((()";
+		String p = ")(";
 
-		System.out.println(split(p));
+		System.out.println(solution(p));
 	}
 
 }
