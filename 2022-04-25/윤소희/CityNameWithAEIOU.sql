@@ -1,0 +1,22 @@
+-- https://www.hackerrank.com/challenges/weather-observation-station-6/problem?isFullScreen=true
+
+-- 1. LIKE + 정규식
+-- MS SQL Server에서만 사용 가능
+SELECT DISTINCT CITY
+FROM STATION
+WHERE CITY LIKE '[AEIOU]%';
+
+-- 2. REGEXP or RLIKE
+SELECT DISTINCT CITY
+FROM STATION
+WHERE CITY REGEXP '^[AEIOU].*?';
+
+-- 3. REGEXP_LIKE 
+SELECT DISTINCT CITY
+FROM STATION
+WHERE REGEXP_LIKE(CITY, '^[AEIOU].*?');
+
+-- 4. SUBSTR + IN
+SELECT DISTINCT CITY
+FROM STATION
+WHERE SUBSTR(CITY, 1, 1) IN ('A', 'E', 'I', 'O', 'U');
